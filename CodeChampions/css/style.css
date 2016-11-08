@@ -18,11 +18,12 @@ h2 {
 }
 
 img {
-    float: right;
-    display: block;
-    margin-left: 32px;
-    max-width: 360px;
+    max-width: 42%;
     height: auto;
+    margin-bottom: 12px;
+    margin: auto;
+    display: inline;
+    position: relative;
 }
 
 hr {
@@ -79,10 +80,26 @@ footer {
     padding: 0 12px 0 12px;
 }
 
+#info{
+  font-family: 'Amiko', sans-serif;
+}
+
+#info h1{
+  color: #545454;
+  font-size: 64px;
+  display: block;
+  text-align: center;
+  width: 75%;
+  margin: 64px auto;
+}
+
+#info ul > li{
+  margin-bottom: 16px;
+}
+
 .part {
     width: 90%;
     margin: 0 auto;
-    font-family: 'Amiko', sans-serif;
     text-align: justify;
     margin-bottom: 32px;
     width: 66%;
