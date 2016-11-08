@@ -152,3 +152,112 @@ footer {
 [type="checkbox"]:checked+label:after {
     background: url('../img/check_on.png') left center no-repeat;
 }
+
+
+/*Sidenav*/
+
+.mySideNav {
+    float: right;
+    height: 0px;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: absolute;
+    /* Stay in place */
+    z-index: -2;
+    /* Stay on bottom */
+    right: 0;
+    background-color: #FF6347;
+    /* white*/
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    border-radius: 10px;
+}
+
+.bottom-div {
+    text-align: center;
+    height: 0px;
+    /* 100% Full-height */
+    width: 100%;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    ;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on bottom */
+    right: 0;
+    bottom: -113px;
+    background-color: #fff;
+    /* white*/
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    border-radius: 10px;
+}
+
+.div1 {
+    top: 433px;
+}
+
+.div2 {
+    top: 550px;
+}
+
+.div3 {
+    top: 665px;
+}
+
+.div4 {
+    top: 780px;
+}
+
+.div5 {
+    top: 900px;
+}
+
+.div6 {
+    top: 1020px;
+}
+
+.div7 {
+    top: 1135px;
+}
+
+.div14 {
+    top: 1250px;
+}
+
+.div8 {
+    top: 1370px;
+}
+
+.div9 {
+    top: 1485px;
+}
+
+.div10 {
+    top: 1600px;
+}
+
+.div11 {
+    top: 1720px;
+}
+
+.div12 {
+    top: 1833px;
+}
+
+.div13 {
+    top: 1950px;
+}
+
+.enf {
+    font-family: 'BioRhyme', serif;
+    font-size: 36px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+}

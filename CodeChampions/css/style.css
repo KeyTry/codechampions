@@ -80,21 +80,21 @@ footer {
     padding: 0 12px 0 12px;
 }
 
-#info{
-  font-family: 'Amiko', sans-serif;
+#info {
+    font-family: 'Amiko', sans-serif;
 }
 
-#info h1{
-  color: #545454;
-  font-size: 64px;
-  display: block;
-  text-align: center;
-  width: 75%;
-  margin: 64px auto;
+#info h1 {
+    color: #545454;
+    font-size: 64px;
+    display: block;
+    text-align: center;
+    width: 75%;
+    margin: 64px auto;
 }
 
-#info ul > li{
-  margin-bottom: 16px;
+#info ul>li {
+    margin-bottom: 16px;
 }
 
 .part {
